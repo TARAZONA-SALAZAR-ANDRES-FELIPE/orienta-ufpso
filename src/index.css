@@ -1,0 +1,92 @@
+:root {
+  --primary: #E03B3E;
+  --primary-light: #f44747;
+  --primary-dark: #c42c2f;
+  --secondary: #1a1a1a;
+  --white: #FFFFFF;
+  --text: #2c3e50;
+  --text-light: #7f8c8d;
+  --bg: #f8f9fa;
+  --bg-card: #ffffff;
+  --border: #e8ecf1;
+  --shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  --shadow-hover: 0 12px 24px rgba(0, 0, 0, 0.12);
+  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+  font-size: 16px;
+  color: var(--text);
+  background: var(--bg);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f8f9fa 0%, #f0f2f5 100%);
+  background-attachment: fixed;
+}
+
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 600;
+  color: var(--text);
+  letter-spacing: -0.5px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  margin: 32px 0 16px;
+}
+
+h2 {
+  font-size: 1.75rem;
+  line-height: 1.3;
+  margin: 24px 0 12px;
+}
+
+h3 {
+  font-size: 1.25rem;
+  margin: 16px 0 8px;
+}
+
+p {
+  margin: 0;
+  line-height: 1.6;
+  color: var(--text-light);
+}
+
+code,
+.counter {
+  font-family: 'Fira Code', 'Monaco', monospace;
+  display: inline-flex;
+  border-radius: 6px;
+  color: var(--primary);
+}
+
+code {
+  font-size: 0.9rem;
+  padding: 4px 8px;
+  background: rgba(224, 59, 62, 0.08);
+}
