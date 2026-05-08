@@ -32,7 +32,7 @@ app.use((req, res, next) => {
   if (isChatRequest) {
     // Si es la ruta principal del iframe, reescribimos la URL antes de pasar al proxy
     if (req.url.startsWith('/iframe-chat')) {
-      req.url = '/cIP0T7fcpeuzyNU3-4Uub/help';
+      req.url = '/YzZJ5NiOQO9eL2N9FLYdo/help';
     }
     return proxyConfig(req, res, next);
   }
