@@ -19,7 +19,7 @@ function ChatHelp() {
       }}
     >
       <iframe
-        src="https://www.chatbase.co/cIP0T7fcpeuzyNU3-4Uub/help?embed=true"
+        src="https://www.chatbase.co/YzZJ5NiOQO9eL2N9FLYdo/help?embed=true"
         title="Chat de soporte OrientaUFPSO"
         style={{ width: "100%", flex: 1, border: "none", display: "block" }}
         allow="microphone"
